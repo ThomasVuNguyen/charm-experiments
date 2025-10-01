@@ -39,6 +39,8 @@ Each Muse owns paired Harmonica springs for the X and Y axes. Formation logic de
 
 ## Vibe Studio
 
+![Vibe Studio Demo](vhs/vibe-studio.gif)
+
 `cmd/vibe-studio` is a generative blend atelier that leans hard on [Bubbles](https://github.com/charmbracelet/bubbles). A curated muse list (Bubbles `list`) feeds a synesthetic log rolling through a scrollable viewport, while a spring-driven progress bar and spinner (Bubbles `progress` + `spinner`) orchestrate the infusion ritual. The contextual footer (`help`) keeps the control surface handy as you swap focus between palette and log.
 
 ### Run it
