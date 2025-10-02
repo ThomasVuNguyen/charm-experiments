@@ -84,3 +84,25 @@ go run ./cmd/chroma-journal
 - `q`: quit
 
 Gradient headings are rendered character-by-character with lipgloss styles, shadows and borders come from nested styles, and the layout automatically snaps between stacked and grid compositions using `JoinHorizontal`, `JoinVertical`, and adaptive width calculations.
+
+## Critter Carnival
+
+![Critter Carnival Demo](vhs/critter-carnival.gif)
+
+`cmd/critter-carnival` is a whimsical terminal carnival featuring animated critters that dance and play across the screen using [Bubble Tea](https://github.com/charmbracelet/bubbletea) and [Lip Gloss](https://github.com/charmbracelet/lipgloss).
+
+### Run it
+
+```bash
+go run ./cmd/critter-carnival
+```
+
+### Controls
+
+- `space`: start/stop the carnival
+- `r`: reset all critters to starting positions
+- `q`: quit
+
+### How it works
+
+The carnival features multiple animated critters with different movement patterns, colors, and behaviors, all rendered using terminal graphics and animations.
