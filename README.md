@@ -4,6 +4,29 @@ A set of experimental applications using various charm.sh libraries to see how c
 
 I got bored and paid for OpenAI Codex
 
+## Nyan Cat
+
+![Nyan Cat Demo](vhs/nyan-cat.gif)
+
+`cmd/nyan-cat` is a psychedelic menagerie of bizarre creatures that dance through surreal animated backgrounds using [Bubble Tea](https://github.com/charmbracelet/bubbletea) and [Lip Gloss](https://github.com/charmbracelet/lipgloss). Each creature inhabits its own unique environment with flowing particle systems, harmonic waves, and mood-shifting palettes.
+
+### Run it
+
+```bash
+go run ./cmd/nyan-cat
+```
+
+### Controls
+
+- `←` / `→` (or `h` / `l`): cycle through bizarre creatures
+- `1`-`9`, `0`: jump directly to specific creatures
+- `m`: cycle through mood themes (Cosmic Mutation, Acid Dream, Void Ripple, Neural Bloom)
+- `q`: quit
+
+### How it works
+
+Each creature features pixel art animations with unique color palettes, while dynamic backgrounds use harmonic wave systems, flow field particles, energy orbs, and wispy trails. The app cycles through different mood themes that transform the entire visual experience with shifting color palettes and ambient effects.
+
 ## Harmonic Garden
 
 ![Harmonic Garden Demo](vhs/harmonic-garden.gif)
